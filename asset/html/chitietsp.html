@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/asset/css/chitet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav_link">
+            <div class="logo">
+                <img src="/asset/img/azpet.png" alt="">
+                <i class="fa-solid fa-bars fa-sm"></i>
+                <p>Danh mục sản phẩm</p>
+            </div>
+            <div class="sea">
+                <form action="/search" method="GET">
+                    <input type="text" name="q" placeholder="Tìm kiếm...">
+                    <button type="submit">Tìm kiếm</button>
+                </form>
+            </div>
+            <div class="cart">
+               <a href="/asset/html/giohang.html"><button><i class="fa-solid fa-cart-shopping"></i><span id="soLuong">0</span></button></a> 
+            </div>
+        </div>
+        <div class="sanPham">
+            <div class="sanPham_img">
+                <img src="/asset/img/C2408-C13021-3.jpg" alt="" class="sp" id="img_sp">
+                <div class="list_img">
+                    <img src="/asset/img/C2408-C13021-4.jpg" alt="">
+                    <img src="/asset/img/C2408-C13021-4.jpg" alt="">
+                    <img src="/asset/img/C2408-C13021-4.jpg" alt="">
+                    <img src="/asset/img/C2408-C13021-4.jpg" alt="">
+                </div>
+            </div>
+            <div class="sanPham_desc">
+                <h1 id="name">Alaska Standard Nâu Đỏ Đực C13021</h1>
+                <div class="prire">
+                    <span>Giá :</span><span id="gia">200000đ</span>
+                </div>
+                <div class="sanpham_gioithieu">
+                    <h4>ĐẶC QUYỀN ĐI KÈM</h4>
+                    <ul>
+                        <li>Trả góp LS 0% trong 12 tháng</li>
+                        <li>Bảo hành lên tới 365 ngày.</li>
+                        <li>Bảo hiểm sức khỏe lên tới 1,000,000đ</li>
+                        <li>Miễn phí vận chuyển toàn quốc</li>
+                        <li>Giảm 500,000đ khi mua bé thứ 2.</li>
+                        <li>Giảm trọn đời 5% khi mua phụ kiện.</li>
+                        <li>Giảm trọn đời 20% Spa cắt tỉa – Áp dụng với KH khu vực Hà Nội</li>
+                    </ul>
+                </div>
+                <div class="butBuy">
+                    <button onclick="tangValue()">Thêm Vào Giỏ Hàng</button><button>Mua Ngay</button>
+                </div>
+            </div>
+        </div>
+        <div class="dac_quyen">
+            <div class="dac_quyen_1">
+                <h1>ĐẶC QUYỀN CHỈ CÓ TẠI AZPET</h1>
+                <i class="fa-solid fa-paw"></i>
+            </div>
+            <div class="dac_quyen_2">
+                <div class="dac_quyen_desc">
+                    <div class="dac_quyen_item">
+                        <img src="/asset/img/mua-thu-cung-tra-gop-12-thang.gif" alt="">
+                        <hr>
+                        <p>Trả góp lãi suất 0% trong 12 tháng </p>
+                    </div>
+                    <div class="dac_quyen_item">
+                        <img src="/asset/img/bao-hanh-365-ngay.gif" alt="">
+                        <hr>
+                        <p>Bảo hành toàn diện 365 ngày</p>
+                    </div>
+                    <div class="dac_quyen_item">
+                        <img src="/asset/img/ho-tro-chi-phi-kham-chua-benh.gif" alt="">
+                        <hr>
+                        <p>Bảo hiểm sức khỏe lên tới 1,000,000đ</p>
+                    </div>
+                    <div class="dac_quyen_item">
+                        <img src="/asset/img/mien-phi-van-chuyen.gif" alt="">
+                        <hr>
+                        <p>Miễn phí vận chuyển toàn quốc </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="Azpet">
+            <div class="azpet1">
+                <h1>VỀ AZPET</h1>
+                <p>Là trại nhân giống chó cảnh hàng đầu Việt Nam – Sau hơn 10 năm hoạt động AZPET đã cung cấp ra thị
+                    trường trên 25,000 bé thú cưng. Quy mô trại chính 7,000 m2, đồng thời hợp tác với hơn 100 hộ nhân
+                    giống trên toàn quốc…</p>
+            </div>
+        </div>
+        <div class="rate">
+            <div class="rate1">
+                <div class="rate1_1">
+                    <iframe width="790" height="538" src="https://www.youtube.com/embed/y8oH9yDx4eE"
+                        title="LÀM BẠN VỚI TỚ NHÉ - Bài Hát Bố Con Sâu Tặng AZPET" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="rate1_2">
+                    <img src="/asset/img/vp17-20201231091208.jpg" alt="">
+                    <img src="/asset/img/vp16-20201231091208.jpg" alt="">
+                </div>
+            </div>
+            <div class="rate2">
+                <img src="/asset/img/vp15-20201231091208.jpg" alt="">
+                <img src="/asset/img/vp5-20201231091159.jpg" alt="">
+                <img src="/asset/img/vp4-20201231091159.jpg" alt="">
+                <img src="/asset/img/vp13-20201231091208.jpg" alt="">
+                <img src="/asset/img/vp11-20201231091207.jpg" alt="">
+                <img src="/asset/img/vp9-20201231091159-1.jpg" alt="">
+            </div>
+        </div>
+        <footer>
+            <div class="footer_desc">
+                <div class="foot_item">
+                    <h1>LIÊN HỆ AZPET</h1>
+                    <p>Trụ Sở: 59 Văn Cao, Liễu Giai, Ba Đình, Hà Nội</p>
+                    <p>Trại Giống: Quỳnh Hội, Quỳnh Phụ, Thái Bình</p>
+                    <p>Hotline: 0888 08 3388</p>
+                    <p>Website: https://azpet.com.vn</p>
+                    <p>Email: contact@azpet.com.vn</p>
+                </div>
+                <div class="foot_item">
+                    <h1>VỀ AZPET</h1>
+                    <p>Giới Thiệu Công Ty</p>
+                    <p>Cơ Hội Nghề Nghiệp</p>
+                    <p>Hợp Tác Nhân Giống</p>
+                    <p>Cửa Hàng Phụ Kiện</p>
+                    <p>Truyền Thông Nói Về AZPET</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="/asset/js/giohang.js"></script>
+</html>
+

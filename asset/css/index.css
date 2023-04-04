@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+
+
+
+.container{
+    margin: 0 auto;
+}
+
+
+.nav_link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #b90000;
+    height: 70.2px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.nav_link .logo{
+    display: flex;
+    align-items: center;
+}
+
+.nav_link .logo img{
+    width: 100px;
+    margin-right: 5px;
+}
+
+.nav_link .logo i{
+    font-size: 30px;
+    margin-left: 10px;
+    color: white;
+}
+
+.nav_link .logo p{
+    width: 80px;
+    margin-left: 10px;
+    color: white;
+    font-size: 1rem;
+}
+
+.nav_link .sea{
+    position: relative;
+    width: 300px;
+}
+
+.nav_link .sea form input{
+    height: 30px;
+    width: 70%;
+    outline: none;
+    border: 2px solid;
+    border-right:none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.nav_link .sea form button{
+    height: 33.2px;
+    position: absolute;
+    border: none;
+    background-color: yellow;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav_link .cart button{
+   height: 33px;
+   width: 150px;
+   border: none;
+   border-radius: 20px;
+   background-color: #ffc220;
+}
+
+
+/* giới thiệu */
+.gioi-thieu{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.gioi-thieu .gioi-thieu-1{
+    display: flex;
+    height: 420px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.gioi-thieu .gioi-thieu-1 .gioi-thie_item-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2px;
+    box-shadow: 3px 3px 3px white ;
+    height: 98%;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.gioi-thieu .gioi-thieu-1 .gioi-thie_item-1 img{
+    height: 40px;
+    width: 40px;
+
+
+}
+
+.gioi-thieu .gioi-thieu-1 .gioi-thie_item-1 p{
+    width: 150px;
+}
+
+.gioi-thieu .gioi-thieu-2{
+    flex: 75%;
+    display: flex;
+    margin-left: 10px;
+}
+
+.gioi-thieu .gioi-thieu-2 img{
+    height: 420px;
+    width: 100%;
+
+}
+
+/* quản lý mặt hàng  */
+.gioi_thieu_sp{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 100%;
+    display: flex;
+}
+/* 
+.gioi_thieu_sp .gioi_thieu_sp1{
+   flex: 30%;
+} */
+
+.gioi_thieu_sp .gioi_thieu_sp1 img{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+/* giới thiệu sản phẩm  */
+
+.gioi_thieu_sp .gioi_thieu_sp2{
+    flex: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.gioi_thieu_sp .gioi_thieu_sp2 .menu_sp2 ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border-bottom: 2px solid;
+    padding: 20px;
+}
+
+.gioi_thieu_sp .gioi_thieu_sp2 .menu_sp2 li:hover{
+    color: red;
+    text-decoration:2px underline black;
+}
+
+
+.gioi_thieu_sp .gioi_thieu_sp2 .Sp1 .sp1_desc{
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-between;
+    height: 400px;
+}
+
+.gioi_thieu_sp .gioi_thieu_sp2 .Sp1 .sp1_desc .sp1_item{
+    flex: 20%;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.gioi_thieu_sp .gioi_thieu_sp2 .Sp1 .sp1_desc .sp1_item img{
+    width: 100%;
+}
+
+.gioi_thieu_sp .gioi_thieu_sp2 .Sp1 .sp1_desc .sp1_item:hover{
+    box-shadow: 0px 5px 0px red;
+}
+
+.banner{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.banner img{
+    width: 100%;
+}
+
+/* đặc quyền */
+.dac_quyen{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.dac_quyen .dac_quyen_1{
+    text-align: center;
+}
+
+.dac_quyen .dac_quyen_1 i{
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.dac_quyen .dac_quyen_2{
+    margin-top: 50px;
+}
+
+.dac_quyen .dac_quyen_2 .dac_quyen_desc{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.dac_quyen .dac_quyen_2 .dac_quyen_desc .dac_quyen_item{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 240px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+
+.dac_quyen .dac_quyen_2 .dac_quyen_desc .dac_quyen_item img{
+    width: 140px;
+}
+
+.dac_quyen .dac_quyen_2 .dac_quyen_desc .dac_quyen_item p{
+    border-top: 2px solid;
+    margin-top: 50px;
+    font-size: 1.2rem;
+}
+
+.Azpet{
+    margin-top: 50px;
+    background-image: url(/asset/img/banner1.png);
+    height: 600px;
+    
+}
+
+.Azpet .azpet1{
+    width: 520px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-evenly;
+    color: white;
+    
+}
+
+.Azpet .azpet1 h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.rate{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.rate img{
+    border-radius: 20px;
+}
+
+.rate .rate1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rate .rate1 .rate1_2{
+    height: 538px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rate .rate1 .rate1_2 img{
+    width: 98%;
+    height: 260px;
+}
+
+.rate2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.rate2 img{
+    width: 400px;
+}
+
+footer{
+    background-color: white;
+    height: 300px;
+    margin-top: 50px;
+
+}
+
+.footer_desc{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.foot_item{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+p{
+    font-size: 1.2rem;
+}
